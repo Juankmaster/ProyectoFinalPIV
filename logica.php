@@ -9,7 +9,7 @@
 	<title>Practica</title>
 </head>
 <body>
-	<fieldset style="background-color:">
+	<fieldset>
 		<legend>PRUEBAS</legend>
 	
 			<form action="logica.php" method="get">
