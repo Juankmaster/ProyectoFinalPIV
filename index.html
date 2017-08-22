@@ -1,0 +1,53 @@
+
+
+
+<html>
+<head>
+	<title>Practica</title>
+</head>
+<body>
+	<fieldset>
+		<legend>PRUEBAS</legend>
+	
+			<form action="logica.php" method="get" enctype="multipart/form-data">
+		Nombre:	<input type"text" name="nombre" >
+		Apellido: <input type="text" name="apellido">
+		Edad:<input type="text" name ="edad">
+			<p>Archivo:<input type="file" name="Adjuntar"></p>
+			<!--<input type="image" name="enviar" src="candadoClose.jpg"  />-->
+		<label for="programa">Programa seleccionado</label> <br/>
+<select id="programa" name="programa">
+  <optgroup label="Sistemas Operativos">
+    <option value="Windows" selected="selected">Windows</option>
+    <option value="Mac">Mac</option>
+    <option value="Linux">Linux</option>
+    <option value="Other">Otro</option>
+  </optgroup>
+  <optgroup label="Navegadores">
+    <option value="Internet Explorer" selected="selected">Internet Explorer</option>
+    <option value="Firefox">Firefox</option>
+    <option value="Safari">Safari</option>
+    <option value="Opera">Opera</option>
+    <option value="Other">Otro</option>
+  </optgroup>
+</select>
+		    		Observaciones:<br>
+		    			<textarea name="observacion" cols="20" rows="10">
+		    				
+		    			</textarea>
+
+		    		<br><br>
+		    	<input type="submit" value="Enviar">
+
+
+
+
+
+
+
+
+	</form>
+	 </fieldset>
+
+</body>
+</html>
